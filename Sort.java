@@ -44,21 +44,21 @@ public class Sort {
          //TESTING DESCENDING SORT
          dsc descend = new dsc();
          System.out.println("\n ################################################# Test 2 ################################################### \n");
-         tester = descend.ascend(t1);
+         tester = descend.descend(t1);
          if(Arrays.equals(tester, d1)){
              System.out.println("\n Test Passed\n");
          }else{
              System.out.println(" \n Test Failed \n");
          }
          System.out.println("\n ################################################# Test 2 ################################################### \n");
-         tester = descend.ascend(t2);
+         tester = descend.descend(t2);
          if(Arrays.equals(tester, d2)){
              System.out.println("\n Test Passed\n");
          }else{
              System.out.println(" \n Test Failed \n");
          }
          System.out.println("\n ################################################# Test 2 ################################################### \n");
-         tester = descend.ascend(t3);
+         tester = descend.descend(t3);
          if(Arrays.equals(tester, d3)){
              System.out.println("\n Test Passed\n");
          }else{
