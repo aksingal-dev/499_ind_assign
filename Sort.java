@@ -19,7 +19,7 @@ public class Sort {
         
         //TESTING ASCENDING SORT
         asc ascend = new asc();
-        System.out.println("\n ################################################# Test 2 ################################################### \n");
+        System.out.println("\n ################################################# Test 1 ################################################### \n");
         tester = ascend.ascend(t1);
         if(Arrays.equals(tester, a1)){
             System.out.println("\n Test Passed\n");
@@ -33,7 +33,7 @@ public class Sort {
         }else{
             System.out.println(" \n Test Failed \n");
         }
-        System.out.println("\n ################################################# Test 2 ################################################### \n");
+        System.out.println("\n ################################################# Test 3 ################################################### \n");
         tester = ascend.ascend(t3);
         if(Arrays.equals(tester, a3)){
             System.out.println("\n Test Passed\n");
@@ -43,7 +43,7 @@ public class Sort {
 
          //TESTING DESCENDING SORT
          dsc descend = new dsc();
-         System.out.println("\n ################################################# Test 2 ################################################### \n");
+         System.out.println("\n ################################################# Test 1 ################################################### \n");
          tester = descend.descend(t1);
          if(Arrays.equals(tester, d1)){
              System.out.println("\n Test Passed\n");
@@ -57,7 +57,7 @@ public class Sort {
          }else{
              System.out.println(" \n Test Failed \n");
          }
-         System.out.println("\n ################################################# Test 2 ################################################### \n");
+         System.out.println("\n ################################################# Test 3 ################################################### \n");
          tester = descend.descend(t3);
          if(Arrays.equals(tester, d3)){
              System.out.println("\n Test Passed\n");
